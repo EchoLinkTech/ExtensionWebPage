@@ -1,0 +1,69 @@
+.section-shaped .shape-style-1 :nth-child(1) {
+  bottom: auto;
+  left: 0 !important;
+  background: no-repeat !important;
+  top: 20px;
+}
+
+.section-shaped .shape-style-1 :nth-child(2) {
+   top: 0 !important;
+   right: 0 !important;
+   background:transparent !important;
+   font-size: .875rem;
+}
+
+.section-shaped .shape-style-1 :nth-child(3) {
+   top: 0 !important;
+   right: 0 !important;
+   background:transparent !important;
+}
+
+.section-shaped .shape-style-1 :nth-child(4) {
+   top: 0 !important;
+   right: 0 !important;
+   background:transparent !important;
+}
+
+.section-profile-cover {
+	height: 670px !important;
+}
+.section-shaped .shape-style-1 :nth-child(8) {
+  right: 0;
+  bottom: 0;
+  background: transparent !important;
+}
+.section-shaped .shape {
+  z-index: 0 !important;
+}
+.extension-info a {
+  color: #80409a;
+}
+
+.extension-info a:hover, .extension-info a:active {
+  color: #0f084c;
+  text-decoration: none;
+}
+
+.footer {
+  padding: 1rem 0;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+}
+@media (max-width: 767px) {
+	.col-9, .col-3, .col-6 {
+		max-width: 100%;
+		flex: 100%;
+	}
+	.section-shaped .shape-style-1 :nth-child(1) {
+		top: 60px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.section-shaped .shape-style-1 :nth-child(1) {
+		top: 60px;
+	}
+}
