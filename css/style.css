@@ -1,3 +1,6 @@
+.navbar-brand img {
+  height: 50px;
+}
 .section-shaped .shape-style-1 :nth-child(1) {
   bottom: auto;
   left: 0 !important;
