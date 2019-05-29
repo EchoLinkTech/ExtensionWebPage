@@ -1,6 +1,14 @@
-.navbar-brand img {
-  height: 50px;
+header, header .headroom--not-top {
+  background-color: #fff !important;
 }
+.navbar-transparent .navbar-nav .nav-link {
+  color: #5e72e4 !important;
+}
+
+header .navbar {
+  padding: 10px 0px;
+}
+
 .section-shaped .shape-style-1 :nth-child(1) {
   bottom: auto;
   left: 0 !important;
